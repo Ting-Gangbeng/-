@@ -1,0 +1,48 @@
+npm <command>
+
+Usage:
+
+npm install        install all the dependencies in your project
+npm install <foo>  add the <foo> dependency to your project
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term>
+npm help npm       more involved overview
+
+All commands:
+
+    access, adduser, audit, bin, bugs, cache, ci, completion,
+    config, dedupe, deprecate, diff, dist-tag, docs, doctor,
+    edit, exec, explain, explore, find-dupes, fund, get, help,
+    hook, init, install, install-ci-test, install-test, link,
+    ll, login, logout, ls, org, outdated, owner, pack, ping,
+    pkg, prefix, profile, prune, publish, rebuild, repo,
+    restart, root, run-script, search, set, set-script,
+    shrinkwrap, star, stars, start, stop, team, test, token,
+    uninstall, unpublish, unstar, update, version, view, whoami
+
+Specify configs in the ini-formatted file:
+    /Users/mac/.npmrc
+or on the command line via: npm <command> --key=value
+
+More configuration info: npm help config
+Configuration fields: npm help 7 config
+
+npm@8.1.1 /usr/local/lib/node_modules/npm
+my-site@0.1.0 /Users/mac/Desktop/vue/获取远程消息/my-size
+├── @vue/cli-plugin-babel@4.5.15
+├── @vue/cli-service@4.5.15
+├── axios@0.24.0
+├── core-js@3.19.1
+├── highlight.js@11.4.0
+├── less-loader@5.0.0
+├── less@3.13.1
+├── mockjs@1.1.0
+├── querystring@0.2.1
+├── vue-router@3.5.3
+├── vue-template-compiler@2.6.14
+├── vue@2.6.14
+└── vuex@4.0.2
+
